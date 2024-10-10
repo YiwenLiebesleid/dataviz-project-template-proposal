@@ -70,7 +70,12 @@ A scatter plot of the correlation(exercise, sleep efficiency).
 A bar chart for the caffeine consumption in each sleep efficiency group.
 ![image](./doc/sketch1.jpg "sketch1")
 
-
+<p>
+<img src=./doc/age_group1.png align="left" width=200 />
+<img src=./doc/age_group1_disctibution.png align="left" width=200 />
+<img src=./doc/exercise.png align="left" width=200 />
+<img src=./doc/caffine.png align="left" width=200 />
+</p>
 
 
 ## Open Questions
