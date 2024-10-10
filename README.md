@@ -43,8 +43,12 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-![image](./doc/sketch1.jpg "sketch1")
-![image](./doc/sketch2.jpg "sketch2")
+<p>
+<img src=./doc/sketch1.jpg align="left" width=400 />
+<img src=./doc/sketch2.jpg align="left" width=400 />
+</p>
+<!-- ![image](./doc/sketch1.jpg "sketch1")
+![image](./doc/sketch2.jpg "sketch2") -->
 
 The 1st sketch is related to Task 1, I consider using brushing in this viz, so when selecting one group then all the related plots are highlighted. It visualized the sleep pattern percentage of each age group or gender, and also the sleep patterns and efficiency of each age group or gender.
 
