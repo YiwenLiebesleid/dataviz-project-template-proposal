@@ -43,31 +43,31 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+![image](./doc/sketch1.jpg "sketch1")
+![image](./doc/sketch2.jpg "sketch2")
+
+The 1st sketch is related to Task 1, I consider using brushing in this viz, so when selecting one group then all the related plots are highlighted. It visualized the sleep pattern percentage of each age group or gender, and also the sleep patterns and efficiency of each age group or gender.
+
+The 2nd sketch is related to Task 2 & 3. I'm thinking when selecting the efficiency group in task 3, all data related to this group should be highlighted in both T  ask 2 and 3. It visualized the correlation between each lifestyle and sleep efficiency, and also the distribution of these lifestyles in different sleep efficiency groups.
 
 ---
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I’ve created a proof of concept visualization of this data. It's a pie chart showing the sleep pattern percentage distribution in age group 1 (9~19).
+![image](./doc/sketch1.jpg "sketch1")
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
+A bar chart showing the average sleep duration and efficiency in each age group.
+![image](./doc/sketch1.jpg "sketch1")
 
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
+A scatter plot of the correlation(exercise, sleep efficiency).
+![image](./doc/sketch1.jpg "sketch1")
 
-You can put images into here by pasting them into issues.
-
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
+A bar chart for the caffeine consumption in each sleep efficiency group.
+![image](./doc/sketch1.jpg "sketch1")
 
 
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
 
----
 
 ## Open Questions
 
