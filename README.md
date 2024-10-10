@@ -66,19 +66,26 @@ I’ve created a proof of concept visualization of this data:
 - A bar chart for the caffeine consumption in each sleep efficiency group.
 
 <p>
-<img src=./doc/age_group1.png align="left" width=250 />
-<img src=./doc/age_group1_distribution.png align="left" width=250 />
-<img src=./doc/exercise.png align="left" width=250 />
-<img src=./doc/caffine.png align="left" width=250 />
+<img src=./doc/age_group1.png align="left" width=500 />
+<img src=./doc/age_group1_distribution.png align="left" width=500 />
+<img src=./doc/exercise.png align="left" width=500 />
+<img src=./doc/caffine.png align="left" width=500 />
 </p>
 
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+- I'm not sure if the correlation scatter plots will work, because from my current prototype, I find the correlation vague.
+- Displaying the average sleep duration and average sleep efficiency in one chart may cause problem, should I split them into 2 charts?
 
 ---
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+- Week 8: pre-process datasets
+- Week 9: Task 1 pie charts
+- Week 10: Task 1 bar charts
+- Week 11: Task 2 scatter plots
+- Week 12: Task 3 bar charts
+- Week 13: try to add interactions (brushing? clicking?)
+- Week 15: merge all the works
