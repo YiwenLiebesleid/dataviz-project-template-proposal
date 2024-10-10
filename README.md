@@ -44,8 +44,8 @@ The following tasks and questions will drive the visualization and interaction d
 ## Sketches
 
 <p>
-<img src=./doc/sketch1.jpg align="left" width=400 />
-<img src=./doc/sketch2.jpg align="left" width=400 />
+<img src=./doc/sketch1.jpg align="center" width=600 />
+<img src=./doc/sketch2.jpg align="center" width=600 />
 </p>
 <!-- ![image](./doc/sketch1.jpg "sketch1")
 ![image](./doc/sketch2.jpg "sketch2") -->
