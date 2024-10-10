@@ -58,23 +58,18 @@ The 2nd sketch is related to Task 2 & 3. I'm thinking when selecting the efficie
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a pie chart showing the sleep pattern percentage distribution in age group 1 (9~19).
-![image](./doc/sketch1.jpg "sketch1")
+I’ve created a proof of concept visualization of this data: 
 
-A bar chart showing the average sleep duration and efficiency in each age group.
-![image](./doc/sketch1.jpg "sketch1")
-
-A scatter plot of the correlation(exercise, sleep efficiency).
-![image](./doc/sketch1.jpg "sketch1")
-
-A bar chart for the caffeine consumption in each sleep efficiency group.
-![image](./doc/sketch1.jpg "sketch1")
+- A pie chart showing the sleep pattern percentage distribution in age group 1 (9~19).
+- A bar chart showing average sleep duration and efficiency in each age group.
+- A scatter plot of the correlation(exercise, sleep efficiency).
+- A bar chart for the caffeine consumption in each sleep efficiency group.
 
 <p>
-<img src=./doc/age_group1.png align="left" width=200 />
-<img src=./doc/age_group1_disctibution.png align="left" width=200 />
-<img src=./doc/exercise.png align="left" width=200 />
-<img src=./doc/caffine.png align="left" width=200 />
+<img src=./doc/age_group1.png align="left" width=250 />
+<img src=./doc/age_group1_distribution.png align="left" width=250 />
+<img src=./doc/exercise.png align="left" width=250 />
+<img src=./doc/caffine.png align="left" width=250 />
 </p>
 
 
