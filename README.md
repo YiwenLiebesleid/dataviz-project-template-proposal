@@ -2,7 +2,30 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is *Sleep Efficiency Dataset*. Data source: https://www.kaggle.com/datasets/equilibriumm/sleep-efficiency
+
+Description of the dataset:
+
+This dataset is about a study of sleep efficiency and sleep patterns, it contains information about a group of test subjects and their sleep patterns.
+
+Each test subject is identified by a unique Subject ID and their age and gender are also recorded. The Bedtime and Wakeup time features indicate when each subject goes to bed and wakes up each day, and the Sleep duration feature records the total amount of time each subject slept in hours. The Sleep efficiency feature is a measure of the proportion of time spent in bed that is actually spent asleep. The REM sleep percentage, Deep sleep percentage, and Light sleep percentage features indicate the amount of time each subject spent in each stage of sleep. The Awakenings feature records the number of times each subject wakes up during the night. Additionally, the dataset includes information about each subject's caffeine consumption and alcohol consumption in the 24 hours prior to bedtime, their smoking status, and their exercise frequency.
+
+Attributes:
+- ID
+- Age (ordered): (9, 69)
+- Gender (categorical): 50% male and 50% female
+- Bedtime
+- Wakeup time
+- Sleep duration (ordered): (5, 10)
+- Sleep efficiency (ordered): (0.5, 0.99)
+- REM sleep percentage (ordered): (15, 30)
+- Deep sleep percentage (ordered): (18, 75)
+- Light sleep percentage (ordered): (7, 63)
+- Awakenings (ordered): (0, 4)
+- Caffeine consumption (ordered): (0, 200)
+- Alcohol consumption (ordered): (0, 5)
+- Smoking status (categorical): (yes, no)
+- Exercise frequency (ordered): (0, 5)
 
 
 ## Questions & Tasks
