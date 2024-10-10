@@ -66,13 +66,11 @@ I’ve created a proof of concept visualization of this data:
 - A bar chart for the caffeine consumption in each sleep efficiency group.
 
 <p>
-<img src=./doc/age_group1.png align="left" width=400 />
-<img src=./doc/age_group1_distribution.png align="left" width=400 />
-<img src=./doc/exercise.png align="left" width=400 />
-<img src=./doc/caffine.png align="left" width=400 />
+<img src=./doc/age_group1.png align="center" width=300 />
+<img src=./doc/age_group1_distribution.png align="center" width=300 />
+<img src=./doc/exercise.png align="center" width=300 />
+<img src=./doc/caffine.png align="center" width=300 />
 </p>
-
-<br>
 
 ## Open Questions
 
