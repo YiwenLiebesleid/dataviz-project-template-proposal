@@ -81,7 +81,7 @@ I’ve created a proof of concept visualization of this data:
 
 ## Milestones
 
-- Week 8: pre-process datasets
+- Week 8: pre-process datasets: https://vizhub.com/YiwenLiebesleid/processed_sleep_efficiency_dataset
 - Week 9: Task 1 pie charts
 - Week 10: Task 1 bar charts
 - Week 11: Task 2 scatter plots
