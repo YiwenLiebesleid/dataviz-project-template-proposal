@@ -75,15 +75,41 @@ I’ve created a proof of concept visualization of this data:
 ## Open Questions
 
 - I'm not sure if the correlation scatter plots will work, because from my current prototype, I find the correlation vague.
-- Displaying the average sleep duration and average sleep efficiency in one chart may cause problem, should I split them into 2 charts?
+- Displaying the average sleep duration and average sleep efficiency in one chart may cause a problem, should I split them into 2 charts?
 
 ---
 
 ## Milestones
 
-- Week 8: pre-process datasets: https://vizhub.com/YiwenLiebesleid/processed_sleep_efficiency_dataset
-- Week 9: Task 1 pie charts: https://vizhub.com/YiwenLiebesleid/83bb0cc6abc648c4bd076ad9574cf7eb
-- Week 10: Task 1 bar charts: https://vizhub.com/YiwenLiebesleid/2c0712efb0ad4813aead97542e81f53c (already add interaction)
+### Week 8: Pre-process Datasets
+Link: https://vizhub.com/YiwenLiebesleid/processed_sleep_efficiency_dataset
+
+I processed each data example to have an "age_group", and an "efficiency_group" with Python. The age group is mapped in this way: {1:9~19, 2:20~29, 3:30~39, 4:40~49, 5:50~59, 6:60~69}. 
+The efficiency group is split into quartiles, therefore 4 groups are formed, larger group number means higher sleep efficiency.
+I also processed the NaNs in the attributes into 0s.
+Later I will use this processed dataset instead of the original one for visualization. 
+[PLACE HOLDER] May add other processing methods later.
+<img src=./doc/task0_dataset.jpg align="center" width=600 />
+
+### Week 9: Task 1 Pie Charts
+Link: https://vizhub.com/YiwenLiebesleid/83bb0cc6abc648c4bd076ad9574cf7eb
+
+I computed the average deep sleep, REM sleep, and light sleep percentages of each age group and gender, and translated them into pie charts that easily illustrate the sleep patterns 
+(different sleep stage proportions) in each group. It shows how the sleep pattern varies from age group to age group, and also in different genders.
+[TODOs] Currently the number labels are directly displayed on the viz, may change it to hover later.
+<img src=./doc/task1_piechart.jpg align="center" width=600 />
+
+### Week 10: Task 1 Bar Charts
+Link: https://vizhub.com/YiwenLiebesleid/2c0712efb0ad4813aead97542e81f53c
+
+I computed the average sleep duration and efficiency of each age group and gender, and translated them into bar charts. 
+The yellow bars correspond to the left y-axis (duration), while the purple bars correspond to the right y-axis (efficiency).
+I also add one interaction to this viz: when moving the mouse onto one bar, all bars in the same chart of the same attribute (duration/efficiency) will display numbers.
+This viz shows how sleep duration and efficiency vary in different age groups and genders. 
+It seems that the distributions of age groups vary greatly, while gender has little effect on this distribution.
+<img src=./doc/task1_barchart.jpg align="center" width=600 />
+
+
 - Week 11: Task 2 scatter plots
 - Week 12: Task 3 bar charts
 - Week 13: try to add interactions (brushing? clicking?)
