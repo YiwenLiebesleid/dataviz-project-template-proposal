@@ -90,6 +90,7 @@ I also processed the NaNs in the attributes into 0s.
 Later I will use this processed dataset instead of the original one for visualization. 
 
 [PLACE HOLDER] May add other processing methods later.
+
 <img src=./doc/task0_dataset.png align="center" width=600 />
 
 ### Week 9: Task 1 Pie Charts
@@ -99,6 +100,7 @@ I computed the average deep sleep, REM sleep, and light sleep percentages of eac
 (different sleep stage proportions) in each group. It shows how the sleep pattern varies from age group to age group, and also in different genders.
 
 [TODOs] Currently the number labels are directly displayed on the viz, may change it to hover later.
+
 <img src=./doc/task1_piechart.png align="center" width=600 />
 
 ### Week 10: Task 1 Bar Charts
@@ -109,6 +111,7 @@ The yellow bars correspond to the left y-axis (duration), while the purple bars 
 I also add one interaction to this viz: when moving the mouse onto one bar, all bars in the same chart of the same attribute (duration/efficiency) will display numbers.
 This viz shows how sleep duration and efficiency vary in different age groups and genders. 
 It seems that the distributions of age groups vary greatly, while gender has little effect on this distribution.
+
 <img src=./doc/task1_barchart.png align="center" width=600 />
 
 
