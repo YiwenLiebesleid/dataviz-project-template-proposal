@@ -88,6 +88,7 @@ I processed each data example to have an "age_group", and an "efficiency_group" 
 The efficiency group is split into quartiles, therefore 4 groups are formed, larger group number means higher sleep efficiency.
 I also processed the NaNs in the attributes into 0s.
 Later I will use this processed dataset instead of the original one for visualization. 
+
 [PLACE HOLDER] May add other processing methods later.
 <img src=./doc/task0_dataset.jpg align="center" width=600 />
 
@@ -96,6 +97,7 @@ Link: https://vizhub.com/YiwenLiebesleid/83bb0cc6abc648c4bd076ad9574cf7eb
 
 I computed the average deep sleep, REM sleep, and light sleep percentages of each age group and gender, and translated them into pie charts that easily illustrate the sleep patterns 
 (different sleep stage proportions) in each group. It shows how the sleep pattern varies from age group to age group, and also in different genders.
+
 [TODOs] Currently the number labels are directly displayed on the viz, may change it to hover later.
 <img src=./doc/task1_piechart.jpg align="center" width=600 />
 
