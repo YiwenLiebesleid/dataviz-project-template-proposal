@@ -84,7 +84,7 @@ I’ve created a proof of concept visualization of this data:
 ### Week 8: Pre-process Datasets
 Link: https://vizhub.com/YiwenLiebesleid/processed_sleep_efficiency_dataset
 
-I processed each data example to have an "age_group", and an "efficiency_group" with Python. The age group is mapped in this way: {1:9~19, 2:20~29, 3:30~39, 4:40~49, 5:50~59, 6:60~69}. 
+I processed each data example to have an "age_group", and an "efficiency_group" with Python. The age group is mapped in this way: {1:9-19, 2:20-29, 3:30-39, 4:40-49, 5:50-59, 6:60-69}. 
 The efficiency group is split into quartiles, therefore 4 groups are formed, larger group number means higher sleep efficiency.
 I also processed the NaNs in the attributes into 0s.
 Later I will use this processed dataset instead of the original one for visualization. 
@@ -113,4 +113,5 @@ It seems that the distributions of age groups vary greatly, while gender has lit
 - Week 11: Task 2 scatter plots
 - Week 12: Task 3 bar charts
 - Week 13: try to add interactions (brushing? clicking?)
+- Week 14: (buffer)
 - Week 15: merge all the works
