@@ -83,7 +83,7 @@ I’ve created a proof of concept visualization of this data:
 
 - Week 8: pre-process datasets: https://vizhub.com/YiwenLiebesleid/processed_sleep_efficiency_dataset
 - Week 9: Task 1 pie charts: https://vizhub.com/YiwenLiebesleid/83bb0cc6abc648c4bd076ad9574cf7eb
-- Week 10: Task 1 bar charts
+- Week 10: Task 1 bar charts: https://vizhub.com/YiwenLiebesleid/2c0712efb0ad4813aead97542e81f53c (already add interaction)
 - Week 11: Task 2 scatter plots
 - Week 12: Task 3 bar charts
 - Week 13: try to add interactions (brushing? clicking?)
