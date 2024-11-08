@@ -115,6 +115,7 @@ Link: https://vizhub.com/YiwenLiebesleid/24a05d8f436d44f388af4fd2ca5aedf4
 
 I plot 3 scatter plots along with their trendlines to show the correlation between each lifestyle attribute and sleep efficiency.
 1st plot: caffeine consumption - sleep efficiency. 2nd plot: alcohol consumption - sleep efficiency. 3rd plot: exercise times - sleep efficiency.
+I also set color with interpolateViridis to strenghten the display of sleep efficiency (darker color means higher efficiency). 
 From the visualization here, we can observe that the correlation between caffeine consumption and efficiency is small, while alcohol consumption and exercise times do have some impact on sleep efficiency: higher alcohol - lower efficiency; higher exercise - higher efficiency.
 
 I also add interaction to this viz:
