@@ -72,11 +72,6 @@ I’ve created a proof of concept visualization of this data:
 <img src=./doc/caffine.png align="center" width=300 />
 </p>
 
-## Open Questions
-
-- I'm not sure if the correlation scatter plots will work, because from my current prototype, I find the correlation vague.
-- Displaying the average sleep duration and average sleep efficiency in one chart may cause a problem, should I split them into 2 charts?
-
 ---
 
 ## Milestones
@@ -115,8 +110,7 @@ It seems that the distributions of age groups vary greatly, while gender has lit
 <img src=./doc/task1_barchart.png align="center" width=600 />
 
 
-- Week 11: Task 2 scatter plots
+- Week 11: Task 2 scatter plots with color legends, and responsive viz
 - Week 12: Task 3 bar charts
-- Week 13: try to add interactions (brushing? clicking?)
-- Week 14: (buffer)
-- Week 15: merge all the works
+- Week 13: add interactions
+- Week 14: merge all the works together as an article page or HTML?
