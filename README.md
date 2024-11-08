@@ -94,7 +94,7 @@ Link: https://vizhub.com/YiwenLiebesleid/83bb0cc6abc648c4bd076ad9574cf7eb
 I computed the average deep sleep, REM sleep, and light sleep percentages of each age group and gender, and translated them into pie charts that easily illustrate the sleep patterns 
 (different sleep stage proportions) in each group. It shows how the sleep pattern varies from age group to age group, and also in different genders.
 
-[TODOs] Currently the number labels are directly displayed on the viz, may change it to hover later.
+[TODOs] Currently the number labels are directly displayed on the viz, will add a color legend and add hover to highlight.
 
 <img src=./doc/task1_piechart.png align="center" width=600 />
 
