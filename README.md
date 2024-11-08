@@ -116,8 +116,9 @@ Link: https://vizhub.com/YiwenLiebesleid/24a05d8f436d44f388af4fd2ca5aedf4
 I plot 3 scatter plots along with their trendlines to show the correlation between each lifestyle attribute and sleep efficiency.
 1st plot: caffeine consumption - sleep efficiency. 2nd plot: alcohol consumption - sleep efficiency. 3rd plot: exercise times - sleep efficiency.
 From the visualization here, we can observe that the correlation between caffeine consumption and efficiency is small, while alcohol consumption and exercise times do have some impact on sleep efficiency: higher alcohol - lower efficiency; higher exercise - higher efficiency.
+
 I also add interaction to this viz:
-- it should be responsive to fit different screen size
+- It should be responsive to fit different screen size
 - Hover:
   - If you move the mouse over the "Trendline" legend, it will highlight the 3 trendlines in the scatter plots, and display the equations.
   - If you move the mouse over any trendline in the scatter plot, (which should be with a low opacity in natural state), it will highlight this trendline and display its equation.
