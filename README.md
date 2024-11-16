@@ -84,8 +84,6 @@ The efficiency group is split into quartiles, therefore 4 groups are formed, lar
 I also processed the NaNs in the attributes into 0s.
 Later I will use this processed dataset instead of the original one for visualization. 
 
-[PLACE HOLDER] May add other processing methods later.
-
 <img src=./doc/task0_dataset.png align="center" width=600 />
 
 ### Week 9: Task 1 Pie Charts
@@ -94,21 +92,28 @@ Link: https://vizhub.com/YiwenLiebesleid/83bb0cc6abc648c4bd076ad9574cf7eb
 I computed the average deep sleep, REM sleep, and light sleep percentages of each age group and gender, and translated them into pie charts that easily illustrate the sleep patterns 
 (different sleep stage proportions) in each group. It shows how the sleep pattern varies from age group to age group, and also in different genders.
 
-[TODOs] Currently the number labels are directly displayed on the viz, will add a color legend and add hover to highlight.
+<img src=./doc/task1_pie0.png align="center" width=600 />
 
-<img src=./doc/task1_piechart.png align="center" width=600 />
+I also added color legends to the pie charts, and also interaction. 
+Moving the mouse over the legend rectangles will only display the corresponding part in each pie chart.
+
+<img src=./doc/task1_pie1.png align="center" width=600 />
 
 ### Week 10: Task 1 Bar Charts
 Link: https://vizhub.com/YiwenLiebesleid/2c0712efb0ad4813aead97542e81f53c
 
 I computed the average sleep duration and efficiency of each age group and gender, and translated them into bar charts. 
 The yellow bars correspond to the left y-axis (duration), while the purple bars correspond to the right y-axis (efficiency).
-I also add one interaction to this viz: when moving the mouse onto one bar, all bars in the same chart of the same attribute (duration/efficiency) will display numbers.
+
 This viz shows how sleep duration and efficiency vary in different age groups and genders. 
 It seems that the distributions of age groups vary greatly, while gender has little effect on this distribution.
 
-<img src=./doc/task1_barchart.png align="center" width=600 />
+<img src=./doc/task2_bar0.png align="center" width=600 />
 
+I also add one interaction to this viz: when moving the mouse onto one bar, all bars in the same chart of the same attribute (duration/efficiency) will display numbers. Also, if you move the mouse onto the legends, the bar charts will only
+display the corresponding attribute (duration/efficiency) to better observe each attribute's trend.
+
+<img src=./doc/task2_bar1.png align="center" width=600 />
 
 ### Week 11: Task 2 Scatter Plots
 Link: https://vizhub.com/YiwenLiebesleid/24a05d8f436d44f388af4fd2ca5aedf4
@@ -119,13 +124,27 @@ I also set color with interpolateViridis to strengthen the display of sleep effi
 From the visualization here, we can observe that the correlation between caffeine consumption and efficiency is small, while alcohol consumption and exercise times do have some impact on sleep efficiency: higher alcohol - lower efficiency; higher exercise - higher efficiency.
 
 I also add interaction to this viz:
-- It should be responsive to fit different screen size
+- It should be responsive to fit different screen sizes
 - Hover:
   - If you move the mouse over the "Trendline" legend, it will highlight the 3 trendlines in the scatter plots, and display the equations.
   - If you move the mouse over any trendline in the scatter plot, (which should be with a low opacity in natural state), it will highlight this trendline and display its equation.
 
 <img src=./doc/task2_correlation.png align="center" width=600 />
 
-- Week 12: Task 3 bar charts
-- Week 13: add interactions
+### Week 12: Task 3 bar charts
+Link: https://vizhub.com/YiwenLiebesleid/2add5d94142440e8b86b4c46b5d02041
+
+I computed the average caffeine and alcohol consumption _(todo: also add smoke and exercise)_ of each sleep efficiency group, and translated them into bar charts. 
+
+This viz shows how the trend of lifestyle differs in different efficiency groups. For example:
+- People in higher efficiency groups consume relatively more caffeine before sleep.
+- People in higher efficiency groups consume significantly less alcohol.
+
+<img src=./doc/task4_bar0.png align="center" width=600 />
+
+Interaction in this viz: when moving the mouse onto one bar, all bars will display numbers of caffeine/alcohol. Also, if you move the mouse onto the legends, the bar charts will only display the corresponding attribute.
+
+<img src=./doc/task4_bar1.png align="center" width=600 />
+
+- Week 13: add interactions (TODOs: refer to this link https://www.youtube.com/watch?v=Kr2tUZ3H4Og&list=PL9yYRbwpkykthTFJl9vYr_C0FCjRIn_7G&index=38 to change some hover style in bar charts)
 - Week 14: merge all the works together as an article page or HTML?
