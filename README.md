@@ -151,6 +151,7 @@ Interaction in this viz: when moving the mouse onto one bar, all bars will displ
 (Version 2) Interaction in this viz: when moving the mouse onto one bar, all bars will display the value of caffeine/alcohol/exercise (y-axis). The selected bar will be highlighted.
 
 <img src=./doc/task4_bar2.png align="center" width=600 />
+
 ### Week 13: Add Interactions 
 (TODOs: refer to this link https://www.youtube.com/watch?v=Kr2tUZ3H4Og&list=PL9yYRbwpkykthTFJl9vYr_C0FCjRIn_7G&index=38 to change some hover style in bar charts)
 
