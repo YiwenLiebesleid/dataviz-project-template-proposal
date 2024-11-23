@@ -133,12 +133,14 @@ I also add interaction to this viz:
 
 ### Week 12: Task 3 bar charts
 Link: https://vizhub.com/YiwenLiebesleid/2add5d94142440e8b86b4c46b5d02041
+Link (v2): https://vizhub.com/YiwenLiebesleid/c71db0d850e84c6899d9b17af9b92acc
 
 I computed the average caffeine and alcohol consumption _(todo: also add smoke and exercise)_ of each sleep efficiency group, and translated them into bar charts. 
 
 This viz shows how the trend of lifestyle differs in different efficiency groups. For example:
 - People in higher efficiency groups consume relatively more caffeine before sleep.
 - People in higher efficiency groups consume significantly less alcohol.
+- People in higher efficiency groups do more exercises on average.
 
 <img src=./doc/task4_bar0.png align="center" width=600 />
 
@@ -146,7 +148,12 @@ Interaction in this viz: when moving the mouse onto one bar, all bars will displ
 
 <img src=./doc/task4_bar1.png align="center" width=600 />
 
-- Week 13: add interactions (TODOs: refer to this link https://www.youtube.com/watch?v=Kr2tUZ3H4Og&list=PL9yYRbwpkykthTFJl9vYr_C0FCjRIn_7G&index=38 to change some hover style in bar charts)
+(Version 2)
+
+<img src=./doc/task4_bar2.png align="center" width=600 />
+### Week 13: Add Interactions 
+(TODOs: refer to this link https://www.youtube.com/watch?v=Kr2tUZ3H4Og&list=PL9yYRbwpkykthTFJl9vYr_C0FCjRIn_7G&index=38 to change some hover style in bar charts)
+
 - Week 14: merge all the works together as an article page or HTML?
 
 ---
