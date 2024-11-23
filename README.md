@@ -153,7 +153,8 @@ Interaction in this viz: when moving the mouse onto one bar, all bars will displ
 <img src=./doc/task4_bar2.png align="center" width=600 />
 
 ### Week 13: Add Interactions 
-(TODOs: refer to this link https://www.youtube.com/watch?v=Kr2tUZ3H4Og&list=PL9yYRbwpkykthTFJl9vYr_C0FCjRIn_7G&index=38 to change some hover style in bar charts)
+
+This week I added interactions to previous works as updated above.
 
 Current works are collected in this article: https://vizhub.com/YiwenLiebesleid/6ebb1b5f7e804a95b0d4fe25710466b7
 
