@@ -165,5 +165,5 @@ This week I added interactions to previous works as updated above.
 
 Current works are collected in this article: https://vizhub.com/YiwenLiebesleid/6ebb1b5f7e804a95b0d4fe25710466b7
 
-- Week 14: merge all the works together as an article page or HTML?  Todos: may add toolkits for task 1 (pie charts and bar charts), so that gender groups can be separated from age groups.
+- Week 14: merge all the works together, may consider combine task 3 and task 4 so that the same attribute can be shown on the same page.
 
