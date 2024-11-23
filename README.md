@@ -155,8 +155,7 @@ Interaction in this viz: when moving the mouse onto one bar, all bars will displ
 ### Week 13: Add Interactions 
 (TODOs: refer to this link https://www.youtube.com/watch?v=Kr2tUZ3H4Og&list=PL9yYRbwpkykthTFJl9vYr_C0FCjRIn_7G&index=38 to change some hover style in bar charts)
 
+Current works are collected in this article: https://vizhub.com/YiwenLiebesleid/6ebb1b5f7e804a95b0d4fe25710466b7
+
 - Week 14: merge all the works together as an article page or HTML?
 
----
-
-Article for this project: https://vizhub.com/YiwenLiebesleid/6ebb1b5f7e804a95b0d4fe25710466b7
