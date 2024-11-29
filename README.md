@@ -141,7 +141,7 @@ Link: https://vizhub.com/YiwenLiebesleid/2add5d94142440e8b86b4c46b5d02041
 
 Link (v2): https://vizhub.com/YiwenLiebesleid/c71db0d850e84c6899d9b17af9b92acc
 
-I computed the average caffeine and alcohol consumption _(todo: also add smoke and exercise)_ of each sleep efficiency group, and translated them into bar charts. 
+I computed the average caffeine and alcohol consumption and exercise times of each sleep efficiency group, and translated them into bar charts. 
 
 This viz shows how the trend of lifestyle differs in different efficiency groups. For example:
 - People in higher efficiency groups consume relatively more caffeine before sleep.
@@ -151,7 +151,7 @@ This viz shows how the trend of lifestyle differs in different efficiency groups
 <img src=./doc/task4_bar0.png align="center" width=600 />
 
 Interaction:
-- when moving the mouse onto one bar, all bars will display numbers of caffeine/alcohol. Also, if you move the mouse onto the legends, the bar charts will only display the corresponding attribute.
+- when moving the mouse onto one bar, all bars will display the number of caffeine/alcohol. Also, if you move the mouse onto the legends, the bar charts will only display the corresponding attribute.
 
 <img src=./doc/task4_bar1.png align="center" width=600 />
 
@@ -163,7 +163,19 @@ Interaction:
 
 This week I added interactions to previous works as updated above.
 
-Current works are collected in this article: https://vizhub.com/YiwenLiebesleid/6ebb1b5f7e804a95b0d4fe25710466b7
+### Week 14: Merge all works
 
-- Week 14: merge all the works together, may consider combine task 3 and task 4 so that the same attribute can be shown on the same page.
+This week I tried to combine the Task 3 and Task 4 visualizations together, so if you select one lifestyle attribute, it will show both the scatter plot and bar chart of that lifestyle and sleep efficiency.
 
+All works are collected in this article: https://vizhub.com/YiwenLiebesleid/6ebb1b5f7e804a95b0d4fe25710466b7
+
+#### New Task 3 + Task 4 visualization
+Link: https://vizhub.com/YiwenLiebesleid/09f09799636447728beb6130a6246898
+
+This visualization shows the correlation between each lifestyle attribute and the sleep efficiency, and also the average lifestyle value in each sleep efficiency group. From low to high, 0 means lowest efficiency, and 4 means highest efficiency.
+
+From the visualization here, we can observe that the correlation between caffeine consumption and efficiency is small, while alcohol consumption and exercise times do have some impact on sleep efficiency: higher alcohol - lower efficiency; higher exercise - higher efficiency.
+
+<img src=./doc/new_task3_1.png align="center" width=600 />
+
+<img src=./doc/new_task3_2.png align="center" width=600 />
