@@ -179,3 +179,8 @@ From the visualization here, we can observe that the correlation between caffein
 <img src=./doc/new_task3_1.png align="center" width=600 />
 
 <img src=./doc/new_task3_2.png align="center" width=600 />
+
+Interaction:
+- There's a toolkit to select which one specific attribute to investigate.
+- When moving the mouse onto the trendline inside the scatter plot, the line will be highlighted and its equation will be displayed.
+- When moving the mouse onto one bar, all bars will display the value of this attribute, and your selected bar will be highlighted.
