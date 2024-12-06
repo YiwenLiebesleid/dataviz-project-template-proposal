@@ -138,7 +138,7 @@ I computed the average sleep duration and efficiency of each age group and gende
 
 <img src=./doc/task2_v2_bar2.png align="center" width=600 />
 
-<img src=./doc/task2_v2_bar3.png align="center" width=600 />
+<img src=./doc/task2_bar_v2_3.png align="center" width=600 />
 
 3. Analysis:
    
