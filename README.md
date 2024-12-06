@@ -138,6 +138,8 @@ I computed the average sleep duration and efficiency of each age group and gende
 
 <img src=./doc/task2_v2_bar2.png align="center" width=600 />
 
+<img src=./doc/task2_v2_bar3.png align="center" width=600 />
+
 3. Analysis:
    
 This viz shows how sleep duration and efficiency vary in different age groups and genders.
@@ -218,15 +220,15 @@ Link: https://vizhub.com/YiwenLiebesleid/09f09799636447728beb6130a6246898
    
 This week I combined the Task 3 and Task 4 visualizations together, so if you select one lifestyle attribute, it will show both the scatter plot and bar chart of that lifestyle and sleep efficiency.
 
-<img src=./doc/new_task3_1.png align="center" width=600 />
-
-<img src=./doc/new_task3_2.png align="center" width=600 />
-
 2. Interaction:
 - Toolkit buttons: the right of the page shows 3 buttons: "caffeine", "alcohol" and "exercise". If you press one of them, the corresponding scatter plot and bar chart will be displayed.
 - Hover:
   + When moving the mouse onto the trendline in the scatter plot (which should be in light yellow in the natural state), the trendline will be highlighted in red color, and its equation will be shown next to the trendline.
   + When moving the mouse onto one bar, your selected bar will be highlighted, and all bars will display the corresponding numbers.
+
+<img src=./doc/new_task3_1.png align="center" width=600 />
+
+<img src=./doc/new_task3_2.png align="center" width=600 />
 
 3. Analysis:
    
