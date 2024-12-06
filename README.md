@@ -83,6 +83,7 @@ I’ve created a proof of concept visualization of this data:
 Link: https://vizhub.com/YiwenLiebesleid/processed_sleep_efficiency_dataset
 
 1. Implementation:
+   
 I processed each data example to have an "age_group", and an "efficiency_group" with Python. 
 - The age group is mapped in this way: {1:9-19, 2:20-29, 3:30-39, 4:40-49, 5:50-59, 6:60-69}. 
 - The efficiency group is split into quartiles, therefore 4 groups are formed, a larger group number means higher sleep efficiency.
@@ -98,6 +99,7 @@ Later I will use this processed dataset instead of the original one for visualiz
 Link: https://vizhub.com/YiwenLiebesleid/83bb0cc6abc648c4bd076ad9574cf7eb
 
 1. Implementation:
+   
 I computed the average deep sleep, REM sleep, and light sleep percentages of each age group and gender, and translated them into pie charts that easily illustrate the sleep patterns (different sleep stage proportions) in each group. It shows how the sleep pattern varies in different age groups, and different genders.
 
 <img src=./doc/task1_v2_pie1.png align="center" width=600 />
@@ -109,10 +111,11 @@ I computed the average deep sleep, REM sleep, and light sleep percentages of eac
 <img src=./doc/task1_v2_pie2.png align="center" width=600 />
 
 3. Analysis:
+   
 This viz shows how sleep patterns vary in different age groups and genders.
 - For different age groups:
-  + REM sleep is quite close in each group, about 22.5% on average, while for the youngest group (9~19) this ratio is only 19.2%.
-  + Light sleep and Deep sleep have more diverse distributions, the youngest group (9~19) and oldest group (60~69) have much more light sleep and much less deep sleep, compared to other groups. People in the middle age group (30~39) seems to have the most deep sleep.
+  + REM sleep is quite close in each group, about 22.5% on average, while for the youngest group (9-19) this ratio is only 19.2%.
+  + Light sleep and Deep sleep have more diverse distributions, the youngest group (9-19) and oldest group (60-69) have much more light sleep and much less deep sleep, compared to other groups. People in the middle age group (30-39) seems to have the most deep sleep.
 - For different genders:
   + REM sleep is quite close, which is similar to age results.
   + Male has more deep sleep than female in general.
@@ -122,6 +125,7 @@ This viz shows how sleep patterns vary in different age groups and genders.
 Link: https://vizhub.com/YiwenLiebesleid/2c0712efb0ad4813aead97542e81f53c
 
 1. Implementation:
+   
 I computed the average sleep duration and efficiency of each age group and gender, and translated them into bar charts. The yellow bars correspond to the left y-axis (duration), while the purple bars correspond to the right y-axis (efficiency).
 
 <img src=./doc/task2_v2_bar1.png align="center" width=600 />
@@ -135,10 +139,11 @@ I computed the average sleep duration and efficiency of each age group and gende
 <img src=./doc/task2_v2_bar2.png align="center" width=600 />
 
 3. Analysis:
+   
 This viz shows how sleep duration and efficiency vary in different age groups and genders.
 - For different age groups:
-  + Sleep duration: the youngest group (9~19) has a notably longer duration (7.9 hours) than other groups (7.5 hours on average).
-  + Sleep efficiency: 2 middle age groups (30~39, 40~49) share the highest sleep efficiency in all groups, and on the contrary, the youngest group (9~19) has the lowest sleep efficiency, which is as low as 0.68
+  + Sleep duration: the youngest group (9-19) has a notably longer duration (7.9 hours) than other groups (7.5 hours on average).
+  + Sleep efficiency: 2 middle age groups (30-39, 40-49) share the highest sleep efficiency in all groups, and on the contrary, the youngest group (9-19) has the lowest sleep efficiency, which is as low as 0.68
 - For different genders: gender shows very little change in this dimension. The average sleep duration and average sleep efficiency is quite close for male and female.
 
 
@@ -148,6 +153,7 @@ This viz shows how sleep duration and efficiency vary in different age groups an
 Link: https://vizhub.com/YiwenLiebesleid/24a05d8f436d44f388af4fd2ca5aedf4
 
 1. Implementation:
+   
 I choose to use the following 3 lifestyle attributes: caffeine consumption, alcohol consumption, and exercise. I plot scatter plots with their trendlines to show the correlation between each lifestyle attribute and sleep efficiency. I also set color with interpolateViridis to strengthen the display of sleep efficiency (darker color means higher efficiency). 
 
 2. Interaction:
@@ -159,6 +165,7 @@ I choose to use the following 3 lifestyle attributes: caffeine consumption, alco
 <img src=./doc/task2_correlation.png align="center" width=600 />
 
 3. Analysis:
+   
 From the visualization here, we can observe that the correlation between caffeine consumption and efficiency is small, while alcohol consumption and exercise times do have some impact on sleep efficiency: higher alcohol - lower efficiency; higher exercise - higher efficiency.
 
 
@@ -168,11 +175,13 @@ Link (v1): https://vizhub.com/YiwenLiebesleid/2add5d94142440e8b86b4c46b5d02041
 Link (v2): https://vizhub.com/YiwenLiebesleid/c71db0d850e84c6899d9b17af9b92acc
 
 1. Implementation:
+   
 I computed the average caffeine and alcohol consumption and exercise times of each sleep efficiency group, and translated them into bar charts. 
 
 <img src=./doc/task4_bar0.png align="center" width=600 />
 
 2. Interaction:
+   
 (Version 1)
 - Hover:
   + When moving the mouse onto one bar, all bars will display the number of caffeine/alcohol.
@@ -188,6 +197,7 @@ I computed the average caffeine and alcohol consumption and exercise times of ea
 <img src=./doc/task4_bar2.png align="center" width=600 />
 
 3. Analysis:
+   
 This viz shows how the trend of lifestyle differs in different efficiency groups. For example:
 - People in higher efficiency groups consume relatively more caffeine before sleep.
 - People in higher efficiency groups consume significantly less alcohol.
@@ -197,6 +207,7 @@ This viz shows how the trend of lifestyle differs in different efficiency groups
 ### Week 13: Add Interactions 
 
 1. Implementation:
+   
 This week I added interactions to Task 1 pie charts, and Task 1 bar charts. (already updated in previous figures)
 
 
@@ -204,6 +215,7 @@ This week I added interactions to Task 1 pie charts, and Task 1 bar charts. (alr
 Link: https://vizhub.com/YiwenLiebesleid/09f09799636447728beb6130a6246898
 
 1. Implementation:
+   
 This week I combined the Task 3 and Task 4 visualizations together, so if you select one lifestyle attribute, it will show both the scatter plot and bar chart of that lifestyle and sleep efficiency.
 
 <img src=./doc/new_task3_1.png align="center" width=600 />
@@ -217,6 +229,7 @@ This week I combined the Task 3 and Task 4 visualizations together, so if you se
   + When moving the mouse onto one bar, your selected bar will be highlighted, and all bars will display the corresponding numbers.
 
 3. Analysis:
+   
 This visualization shows the correlation between each lifestyle attribute and sleep efficiency, and also the average lifestyle value in each sleep efficiency group. From low to high, 0 means lowest efficiency, and 4 means highest efficiency.
 
 From the visualization here, we can observe that:
